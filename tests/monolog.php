@@ -10,3 +10,4 @@ $logger->pushHandler(new FirePHPHandler());
 
 // You can now use your logger
 $logger->addInfo('My logger is now ready');
+$logger->addWarning('My logger warning is now ready');
